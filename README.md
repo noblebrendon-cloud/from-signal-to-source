@@ -4,6 +4,15 @@
 
 From Signal to Source is an open, versioned methodology/specification for moving an emergent idea from a live conversation or observation through research, adversarial review, theory refinement, publication, and distribution without collapsing uncertainty or giving downstream agents more authority than the workflow grants them.
 
+## Release
+
+- **Current version:** v1.0.0
+- **GitHub release:** https://github.com/noblebrendon-cloud/from-signal-to-source/releases/tag/v1.0.0
+- **Zenodo DOI:** https://doi.org/10.5281/zenodo.22074752
+- **Open Methods page:** https://brendonrcoleman.com/methods/from-signal-to-source/
+
+The GitHub repository is the living source and development history. The Zenodo DOI identifies the immutable archived v1.0.0 release.
+
 ## Pipeline
 
 `Capture → Thesis → Deep Research → Challenge → Refine → Draft → Publish → Distribute`
@@ -85,14 +94,12 @@ The documentation, prompts, schemas, and examples in this repository are release
 
 GitHub can render citation information from `CITATION.cff`. Zenodo-specific release metadata is supplied in `.zenodo.json`.
 
-Suggested citation before DOI assignment:
+Preferred citation for v1.0.0:
 
-> Coleman, Brendon R. (2026). *From Signal to Source: A Repeatable Agent Workflow for Turning Live Conversations into Research-Grounded Articles* (Version 1.0.0).
-
-Once a Zenodo DOI is minted, cite the DOI-backed release instead.
+> Coleman, Brendon R. (2026). *From Signal to Source: A Repeatable Agent Workflow for Turning Live Conversations into Research-Grounded Articles* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22074752
 
 ## Version
 
-Current prepared release: **v1.0.0**
+Current public release: **v1.0.0**
 
 See `CHANGELOG.md` for release history.

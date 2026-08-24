@@ -1,0 +1,34 @@
+{
+  "title": "From Signal to Source: A Repeatable Agent Workflow for Turning Live Conversations into Research-Grounded Articles",
+  "description": "An open, versioned agent-workflow specification for transforming live conversational signals into researched, challenged, evidence-bounded, publication-ready long-form work. The release includes a human-readable methodology, bounded agent roles, executable prompts, quality gates, a machine-readable stage schema, and a worked example.",
+  "creators": [
+    {
+      "name": "Coleman, Brendon R."
+    }
+  ],
+  "version": "1.0.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "agent workflow",
+    "research workflow",
+    "AI agents",
+    "evidence synthesis",
+    "publication workflow",
+    "provenance",
+    "human agency",
+    "methodology"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/noblebrendon-cloud/from-signal-to-source",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://brendonrcoleman.com/methods/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

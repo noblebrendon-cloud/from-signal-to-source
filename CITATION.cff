@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this methodology, please cite it using the metadata below."
+title: "From Signal to Source: A Repeatable Agent Workflow for Turning Live Conversations into Research-Grounded Articles"
+type: software
+authors:
+  - family-names: Coleman
+    given-names: Brendon R.
+version: 1.0.0
+date-released: 2026-08-23
+license: CC-BY-4.0
+repository-code: "https://github.com/noblebrendon-cloud/from-signal-to-source"
+url: "https://brendonrcoleman.com/methods/"
+abstract: >-
+  An open, versioned agent-workflow specification for transforming live conversational
+  signals into researched, challenged, evidence-bounded, publication-ready long-form work.
+keywords:
+  - agent workflow
+  - research workflow
+  - AI agents
+  - evidence synthesis
+  - publication workflow
+  - provenance
+  - human agency

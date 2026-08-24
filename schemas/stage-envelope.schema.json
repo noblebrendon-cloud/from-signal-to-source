@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brendonrcoleman.com/methods/from-signal-to-source/stage-envelope.schema.json",
+  "title": "From Signal to Source Stage Envelope",
+  "type": "object",
+  "required": [
+    "stage",
+    "status",
+    "artifact",
+    "uncertainties",
+    "gate_check",
+    "next_authorized_stage"
+  ],
+  "properties": {
+    "stage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "repair",
+        "blocked"
+      ]
+    },
+    "artifact": {
+      "type": [
+        "object",
+        "array",
+        "string",
+        "number",
+        "boolean",
+        "null"
+      ]
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gate_check": {
+      "type": "object",
+      "required": [
+        "passed",
+        "notes"
+      ],
+      "properties": {
+        "passed": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "next_authorized_stage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
